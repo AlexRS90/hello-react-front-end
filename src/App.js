@@ -1,14 +1,13 @@
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          and save to reload.
-          pumas campeon
-        </p>
-      </header>
-    </div>
-  );
-}
+import React from 'react';
+import { Route, Routes } from 'react-router';
+import Regards from './components/Home';
+
+const App = () => (
+  <>
+    <Routes>
+      <Route exact path="/" element={<Regards />} />
+    </Routes>
+  </>
+);
 
 export default App;
