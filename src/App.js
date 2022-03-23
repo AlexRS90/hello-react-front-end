@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route, Routes } from 'react-router';
-import Regards from './components/Home';
+import Greeting from './components/Greeting';
 
 const App = () => (
   <>
     <Routes>
-      <Route exact path="/" element={<Regards />} />
+      <Route exact path="/" element={<Greeting />} />
     </Routes>
   </>
 );

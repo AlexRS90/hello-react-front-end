@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React from 'react';
 
-const Regards = () => {
+const Greeting = () => {
   return (
     <>
       <p>Hola desde el componente</p>
@@ -9,4 +9,4 @@ const Regards = () => {
   );
 };
 
-export default Regards;
+export default Greeting;
