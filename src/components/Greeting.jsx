@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getMessage } from '../redux/regardReducer';
+import '../App.css';
 
 const Greeting = () => {
   const regard = useSelector((state) => state.message);
